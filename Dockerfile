@@ -1,5 +1,7 @@
 FROM alpine:3.14
 
+LABEL Maintainer="forensicgato"
+
 WORKDIR /home
 
 RUN apk add curl
